@@ -1,0 +1,89 @@
+/* Here starts body CSS */
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 16px;
+  font-family: Lexend Deca, sans-serif;
+  color: hsl(0, 0%, 95%);
+  letter-spacing: 0.1rem;
+  display: grid;
+  place-content: center;
+}
+
+/* Main element CSS */
+.main {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+section {
+  padding: 3rem;
+}
+
+/* Set sections background colors */
+.section1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.section2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.section3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/* Set text decorations */
+.title {
+  text-transform: uppercase;
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.paragraph {
+  font-family: Lexend Deca, sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+/* button styling */
+.button {
+  background-color: hsl(0, 0%, 95%);
+  border: 0;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 10rem;
+  font-size: 1.1rem;
+  font-family: Lexend Deca, sans-serif;
+  cursor: pointer;
+}
+
+/* styling button text */
+.section1 > button {
+  color: hsl(31, 77%, 52%);
+}
+
+.section2 > button {
+  color: hsl(184, 100%, 22%);
+}
+
+.section3 > button {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Starts Media Query CSS for desktop version */
+@media (min-width: 700px) {
+  body {
+    height: 100vh;
+  }
+  .main {
+    max-width: 1050px;
+    display: flex;
+    flex-direction: row;
+  }
+  .button {
+    margin-top: 5rem;
+  }
+}
