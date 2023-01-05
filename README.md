@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I learn more about CSS of website responsivnes and image configurations, also usage <section> HTML element and code commenting.
+In this challenge I learn more about CSS of website responsivnes and image configurations, also usage of <section> HTML element and code commenting.
 
 ### Continued development
 
